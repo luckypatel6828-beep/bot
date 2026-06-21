@@ -1,0 +1,16 @@
+{
+  "name": "discord-swarm",
+  "version": "1.0.0",
+  "description": "LO's timezone-based bot swarm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js-selfbot-v13": "^2.15.1",
+    "libsodium-wrappers": "^0.7.13",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.3"
+  }
+}
